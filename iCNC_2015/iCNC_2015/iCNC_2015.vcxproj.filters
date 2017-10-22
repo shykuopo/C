@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="原始程式檔">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SYS">
+      <UniqueIdentifier>{0df9ab01-ca3a-42f1-b4e5-8ecfb983d6eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEC">
+      <UniqueIdentifier>{9339e235-38b7-4257-beea-61e39fbbd4f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMI">
+      <UniqueIdentifier>{278f6e40-d33d-462f-af63-42466e14ddb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LINK">
+      <UniqueIdentifier>{8dae3ead-83c7-4793-b9e6-8cbb55c721ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNC">
+      <UniqueIdentifier>{57501569-ed6f-4eac-9a78-4f4459ddaafd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEC\SRC">
+      <UniqueIdentifier>{d576b2dd-a226-44ce-b9d7-a464ce659ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEC\INC">
+      <UniqueIdentifier>{e442f862-b953-4e90-882e-f1d4f1ba97aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMI\INC">
+      <UniqueIdentifier>{806d1d2b-1a40-49f1-9735-024c56777759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMI\SRC">
+      <UniqueIdentifier>{aa4e5923-a123-4d7a-9ee3-606b9bf0db8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNC\INC">
+      <UniqueIdentifier>{1c043721-3727-4eb4-ad53-cfeab2d11b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNC\SRC">
+      <UniqueIdentifier>{ac79f649-8383-427a-af6e-c50c84655328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LINK\INC">
+      <UniqueIdentifier>{83bf7d11-7574-4778-bf61-f4af8be847aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LINK\SRC">
+      <UniqueIdentifier>{6020704c-5783-4a31-8a51-2cec7be14c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SYS\INC">
+      <UniqueIdentifier>{c900bfab-9c93-429d-a71b-82efd12139d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SYS\SRC">
+      <UniqueIdentifier>{9b1e25cb-980a-4af8-83cc-bc8eadce0253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INTP">
+      <UniqueIdentifier>{054bdd9e-0e8d-431d-ae0f-48c142d64850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INTP\INC">
+      <UniqueIdentifier>{08dfb6de-e4a1-455e-9d31-20c2a4289a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INTP\SRC">
+      <UniqueIdentifier>{e668d4e0-ef27-4cbb-a87d-7cd41ccbebb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL">
+      <UniqueIdentifier>{f1ded1e0-4c48-4a2f-99b5-8d9d7ef8c1c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL\SRC">
+      <UniqueIdentifier>{4dc0c02f-1379-4408-932a-88e62f53fc85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL\INC">
+      <UniqueIdentifier>{37e67e01-56a0-4e5f-a56c-3e58d5755fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FIFO">
+      <UniqueIdentifier>{115563ba-ae6f-4096-a525-61f3773fe821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FIFO\INC">
+      <UniqueIdentifier>{c77be11d-894e-4e1a-9544-1cd1b763e76e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FIFO\SRC">
+      <UniqueIdentifier>{e4c1ab93-27fa-4679-ad0c-40b81f9dcc43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DRV">
+      <UniqueIdentifier>{251f8cf8-3cc2-4907-8b0e-439cd1c07d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DRV\INC">
+      <UniqueIdentifier>{6ac8491a-102a-41bb-9352-6a5dc228265d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEF">
+      <UniqueIdentifier>{05a4d884-10c7-4907-bc3b-8922a5409bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEF\INC">
+      <UniqueIdentifier>{a9637082-d15f-4a45-96fe-85ac1acd2b04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="app.ico">
+      <Filter>資源檔</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="iCNC_2015.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CNC\SRC\cncCtrl.cpp">
+      <Filter>CNC\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MMI\SRC\mmiCtrl.cpp">
+      <Filter>MMI\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MMI\SRC\mmiMain.cpp">
+      <Filter>MMI\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\INTP\SRC\intpCtrl.cpp">
+      <Filter>INTP\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\INTP\SRC\intpMain.cpp">
+      <Filter>INTP\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LINK\SRC\linkCtrl.cpp">
+      <Filter>LINK\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SYS\SRC\sysCtrl.cpp">
+      <Filter>SYS\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DEC\SRC\decCrtl.cpp">
+      <Filter>DEC\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UTIL\SRC\nc_utility.cpp">
+      <Filter>UTIL\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DEC\SRC\decMain.cpp">
+      <Filter>DEC\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SYS\SRC\sysMain.cpp">
+      <Filter>SYS\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DEC\SRC\decFunction.cpp">
+      <Filter>DEC\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FIFO\SRC\fifo.cpp">
+      <Filter>FIFO\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\INTP\SRC\slope.cpp">
+      <Filter>INTP\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\INTP\SRC\intpTrafo.cpp">
+      <Filter>INTP\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\INTP\SRC\intpFunction.cpp">
+      <Filter>INTP\SRC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Form1.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MMI\INC\mmi.h">
+      <Filter>MMI\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CNC\INC\cnc.h">
+      <Filter>CNC\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INTP\INC\intp.h">
+      <Filter>INTP\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SYS\INC\sys.h">
+      <Filter>SYS\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LINK\INC\link.h">
+      <Filter>LINK\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DEC\INC\dec.h">
+      <Filter>DEC\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UTIL\INC\util.h">
+      <Filter>UTIL\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FIFO\INC\fifo.h">
+      <Filter>FIFO\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DRV\INC\stepMotorDRV.h">
+      <Filter>DRV\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DEF\INC\SWITCH.h">
+      <Filter>DEF\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DRV\INC\MEPCIODEV.H">
+      <Filter>DRV\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DRV\INC\MEPCIOINI.H">
+      <Filter>DRV\INC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>資源檔</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resX">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

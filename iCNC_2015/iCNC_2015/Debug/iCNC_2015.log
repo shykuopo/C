@@ -1,0 +1,55 @@
+﻿已經開始建置於 2016/1/18 下午 01:57:38。
+     1>節點 2 (build 目標) 上的專案 "D:\iCNC_2015\iCNC_2015\iCNC_2015.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\iCNC_2015.unsuccessfulbuild"。
+       GenerateTargetFrameworkMonikerAttribute:
+       將略過目標 "GenerateTargetFrameworkMonikerAttribute"，因為所有輸出檔對於其輸入檔而言都已更新。
+       ClCompile:
+         所有輸出都是最新的。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\iCNC_2015.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt iCNC_2015.cpp /clr:nostdlib 
+         iCNC_2015.cpp
+     1>iCNC_2015.cpp(3): warning C4005: '__CLR_VER' : 巨集重複定義
+                 命令列引數 : 請參閱 '__CLR_VER' 先前的定義
+     1>iCNC_2015.cpp(3): warning C4651: 已為先行編譯標頭檔指定 '/D__CLR_VER=40600127'，但不是用於目前的編譯
+     1>d:\icnc_2015\icnc_2015\Form1.h(1270): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 請參閱 'strcpy' 的宣告
+     1>d:\icnc_2015\icnc_2015\Form1.h(1290): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 請參閱 'strcpy' 的宣告
+         所有輸出都是最新的。
+       CoreResGen:
+         相對於資源的來源檔案，並沒有資源過期。將略過產生資源。
+       ResourceCompile:
+         所有輸出都是最新的。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\iCNC_2015\Debug\iCNC_2015.exe" /INCREMENTAL /NOLOGO ../DRV/LIB/driverCreate_2012.lib ../DRV/LIB/MEPCIOPCIDrv.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Debug\iCNC_2015.Form1.resources /MANIFEST /ManifestFile:"Debug\iCNC_2015.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\iCNC_2015\Debug\iCNC_2015.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\cncCtrl.obj
+         Debug\decCrtl.obj
+         Debug\decFunction.obj
+         Debug\decMain.obj
+         Debug\fifo.obj
+         Debug\intpCtrl.obj
+         Debug\intpFunction.obj
+         Debug\intpMain.obj
+         Debug\intpTrafo.obj
+         Debug\slope.obj
+         Debug\linkCtrl.obj
+         Debug\mmiCtrl.obj
+         Debug\mmiMain.obj
+         Debug\sysCtrl.obj
+         Debug\sysMain.obj
+         Debug\nc_utility.obj
+         Debug\AssemblyInfo.obj
+         Debug\iCNC_2015.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         iCNC_2015.vcxproj -> D:\iCNC_2015\Debug\iCNC_2015.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\iCNC_2015\Debug\iCNC_2015.exe;#1" /manifest Debug\iCNC_2015.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\iCNC_2015.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\iCNC_2015.lastbuildstate"。
+     1>專案 "D:\iCNC_2015\iCNC_2015\iCNC_2015.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:05.25

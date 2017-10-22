@@ -1,0 +1,25 @@
+﻿已經開始建置於 2014/5/27 下午 01:03:11。
+     1>節點 2 (build 目標) 上的專案 "F:\my2048\my2048\my2048.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\my2048.unsuccessfulbuild"。
+       GenerateTargetFrameworkMonikerAttribute:
+       將略過目標 "GenerateTargetFrameworkMonikerAttribute"，因為所有輸出檔對於其輸入檔而言都已更新。
+       ClCompile:
+         所有輸出都是最新的。
+         所有輸出都是最新的。
+         所有輸出都是最新的。
+       CoreResGen:
+         相對於資源的來源檔案，並沒有資源過期。將略過產生資源。
+       ResourceCompile:
+         所有輸出都是最新的。
+       Link:
+         所有輸出都是最新的。
+         my2048.vcxproj -> F:\my2048\Debug\my2048.exe
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\my2048.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\my2048.lastbuildstate"。
+     1>專案 "F:\my2048\my2048\my2048.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.21
